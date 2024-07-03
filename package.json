@@ -4,7 +4,7 @@
   "description": "Rating front-end",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
-    "start": "SITE_CODE='FR' webpack-dev-server"
+    "start": "SITE_CODE='FR' ./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --config webpack.dev.config.js --content-base public/ --progress --colors"
   },
   "dependencies": {
     "at-ui": "^1.2.0-beta",
