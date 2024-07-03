@@ -4,8 +4,7 @@
   "description": "Rating front-end",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
-    "serve": "webpack serve",
-    "start": "SITE_CODE='FR' npm run serve"
+    "start": "SITE_CODE='FR' webpack-dev-server"
   },
   "dependencies": {
     "at-ui": "^1.2.0-beta",
@@ -32,7 +31,7 @@
     "vue-loader": "^13.0.0",
     "vue-style-loader": "^3.0.1",
     "webpack": "^4.0.0",
-    "webpack-dev-server": "^3.0.0"
+    "webpack-dev-server": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -56,7 +55,7 @@
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.0.0",
-    "webpack-dev-server": "^3.0.0"
+    "webpack-dev-server": "^2.0.0"
   },
   "license": "MIT"
 }
